@@ -1,0 +1,192 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+a:Link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    background: rgba(0,0,0,0.7);
+    border: 3px solid white;
+    box-shadow: 0px 0px 6px 0.4px white;
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;
+    transition:0.5s;
+}
+button:hover{
+    box-shadow: 0px 1px 20px 1px brown;
+    border: 3px solid brown;
+    transition:0.5s;
+}
+button:focus{
+    outline:none;
+}
+
+#nav{
+    margin: auto;
+    width: 100%;
+}
+#banner{
+    height: 60px;
+    margin: 0px 50px 0px 50px;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+#menuBar{
+    margin-top: 40px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    box-shadow: 0px 1px 40px 1px white;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 17px;
+}
+.dbutton{
+    box-shadow: 0px 0px 6px 0.4px orangered!important;
+    border: 3px solid orangered!important;
+    transition-duration: 0.5s;
+}
+.dbutton:hover{
+    box-shadow: 0px 1px 40px 1px orangered!important;
+    border: 3px solid orangered!important;
+    transition:0.5s;
+}
+.ubutton{
+    box-shadow: 0px 0px 6px 0.4px yellow!important;
+    border: 3px solid yellow!important;
+    transition-duration: 0.5s;
+}
+.ubutton:hover{
+    box-shadow: 0px 1px 40px 1px yellow!important;
+    border: 3px solid yellow!important;
+    transition:0.5s;
+}
+#menuBar .menuButton{
+    width: 160px;
+    height: 20px;
+    background: rgba(0,0,0,0.7);
+    border: 3px solid white;
+    box-shadow: 0px 0px 6px 0.4px white;
+    padding: 10px auto;
+    text-align: center;
+    margin: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+#menuBar .menuButton:HOVER{
+    box-shadow: 0px 1px 40px 1px brown;
+    border: 3px solid brown;
+    transition:0.5s;
+}
+#content_{
+    background: rgba(0,0,0,0.6);
+    color: white;
+    box-shadow: 0px 1px 40px 1px white;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.indexContent{
+    font-size:40px;
+    padding:20px;    
+    text-align: center;
+}
+#content{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#header{
+    text-align: left;
+    font-size: 45px;
+    color: dimgray;
+}
+
+#allTable{
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border: none;
+}
+.allTableth{
+    border: none;
+    font-size: 20px;
+    height: 25px;
+}
+.allTabletd{
+    border: none;
+}
+
+input[type=text], input[type=date], input[type=number], select{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    font-family: 'Montserrat', sans-serif;
+    background: rgba(0,0,0,0.7);
+    border: 3px solid white;
+    box-shadow: 0px 0px 6px 0.4px white;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    transition:0.5s;
+}
+input[type=submit]:HOVER {
+    box-shadow: 0px 1px 40px 1px brown;
+    border: 3px solid brown;
+    transition:0.5s;
+}
+.container{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list_container{
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carlist_container{
+    margin: auto;
+    padding-bottom: 10px;
+}

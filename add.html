@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script type="application/javascript" src="js/additem.js"></script>
+<html lang="hu">
+    <div class="container">
+        <form id="additem" method="post">
+            <div class="row">
+                    <label>Név:</label>
+                    <input type="text" name="name" required="required"/>
+            </div>
+            <div class="row">
+                    <label>Leírás:</label>
+                    <input type="text" name="desc"/>
+            </div>
+            <div class="row">
+                    <label>Ár:</label>
+                    <input type="number" name="price" required="required"/>
+            </div>
+            <div class="row">
+                <input form="additem" type="submit" value="Termék hozzáadása">
+            </div>
+        </form>
+    </div>
+</html>
